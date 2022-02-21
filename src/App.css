@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://i.pinimg.com/564x/36/42/29/3642291603d80cbf90ee7421ba227a8b.jpg");
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  .success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
